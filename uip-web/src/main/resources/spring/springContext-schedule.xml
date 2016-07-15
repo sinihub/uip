@@ -17,7 +17,7 @@
                 <!-- DCS数据迁移并清理 -->
                 <!--<ref bean="dcsDataMigrationJobTrigger" />-->
                 <!-- 接口日数据数据计算 暂时没必要开，接口指标汇集已经开启了-->
-                <!--<ref bean="execInterfaceIndicatorDataGaterTrigger" />-->
+                <ref bean="execInterfaceIndicatorDataGaterTrigger" />
                 <!-- 地磅数据汇集-->
                 <!--<ref bean="execLoadometerOrignalDataGatheringTrigger" />-->
                 <!-- OPC数据缓存-->
